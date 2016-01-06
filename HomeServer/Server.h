@@ -50,7 +50,7 @@ public:
 };
 
 void Server::initialize() {
-	ifstream in("INFORMATION");
+	ifstream in(INFORMATION);
 	in >> privateKey >> compositeNumber >> firstPrimeNumber >> secondPrimeNumber;
 	in.close();
 }
@@ -195,7 +195,6 @@ void Server::execute(int client) { // IS it an int??
 			exit(0);
 		}
 		sendNumberToClient(ID, client);
-		storedInformation[pseudonym] = newInformation;
 		newInformation.vote == 0 ? ++negativeVotes : ++positiveVotes;
 		return;
 	}
@@ -207,6 +206,7 @@ void Server::execute(int client) { // IS it an int??
             perror("Error at writing response to client.\n");
             exit(0);
         }
+        storedInformation[pseudonym] = newInformation;
 		return;
 	}
 	// else, this is the second attempt to vote

@@ -7,7 +7,7 @@
 #include "FFunction.h"
 #include "GFunction.h"
 
-#define INFORMATION "../HomeClient/votingInformation"
+#define INFORMATION "../OfficeClient/votingInformation"
 #define OK 0
 #define INVALID 1
 
