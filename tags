@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Decryption	Server/Decryption.h	/^class Decryption {$/;"	c
+Encryption	Encryption.h	/^class Encryption {$/;"	c
+PRIMES_LENGTH	Server/Declarations.h	4;"	d
+RandomGenerator	Server/RandomGenerator.h	/^class RandomGenerator {$/;"	c
+computeCompositeAndPhi	Server/RandomGenerator.h	/^ void RandomGenerator::computeCompositeAndPhi() {$/;"	f	class:RandomGenerator
+computePrivateKey	Server/RandomGenerator.h	/^void RandomGenerator::computePrivateKey() {$/;"	f	class:RandomGenerator
+decrypt	Server/Decryption.h	/^void Decryption::decrypt() {$/;"	f	class:Decryption
+decryptText	Server/Decryption.h	/^void Decryption::decryptText(bool ultraMode) {$/;"	f	class:Decryption
+encrypt	Encryption.h	/^void Encryption::encrypt() {$/;"	f	class:Encryption
+encryptMessage	Encryption.h	/^void Encryption::encryptMessage() {$/;"	f	class:Encryption
+generateData	Server/RandomGenerator.h	/^void RandomGenerator::generateData() {$/;"	f	class:RandomGenerator
+generatePrimes	Server/RandomGenerator.h	/^void RandomGenerator::generatePrimes() {$/;"	f	class:RandomGenerator
+initializeMessageFromFile	Encryption.h	/^void Encryption::initializeMessageFromFile() {$/;"	f	class:Encryption
+initializePublicKeyFromFile	Encryption.h	/^void Encryption::initializePublicKeyFromFile() {$/;"	f	class:Encryption
+main	CriptoRSA.cpp	/^int main() {$/;"	f
+message	Encryption.h	/^ZZ message;$/;"	v
+outputtedCriptotext	Encryption.h	/^ZZ outputtedCriptotext;$/;"	v
+phiCompositeNumber	Server/Declarations.h	/^ZZ phiCompositeNumber;$/;"	v
+privateKey	Server/Declarations.h	/^ZZ privateKey;$/;"	v
+signBlindMessageUsingCRT	Server/Decryption.h	/^ZZ Decryption::signBlindMessageUsingCRT(ZZ blindMessage) {$/;"	f	class:Decryption
+writeDecryptedMessageInFile	Server/Decryption.h	/^void Decryption::writeDecryptedMessageInFile() {$/;"	f	class:Decryption
+writeEncryptedTextInFile	Encryption.h	/^void Encryption::writeEncryptedTextInFile() {$/;"	f	class:Encryption
